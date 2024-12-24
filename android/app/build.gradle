@@ -54,9 +54,9 @@ android {
     signingConfigs {
         release {
             storeFile file("keystore/doitv.keystore")
-            storePassword "doitv123"
+            storePassword "doitv123456"
             keyAlias "doitv"
-            keyPassword "doitv123"
+            keyPassword "doitv123456"
         }
     }
 
